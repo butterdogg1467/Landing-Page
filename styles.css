@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    background: #1f2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: center
+}
+
+.headersecondarytext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
