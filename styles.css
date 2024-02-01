@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -11,11 +11,11 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     justify-content: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 230px;
+    padding-right: 230px;
     padding-top: 10px;
     max-height: 40px;
-    
+    flex-shrink: 1;
 }
 
 .headersecondarytext {
@@ -39,9 +39,8 @@ a {
     color: #F9FAF8;
     padding: 50px 10px;
     flex-direction: column;
-    overflow-wrap: break-word;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 230px;
+    padding-right: 230px;
     padding-top: 100px;
     padding-bottom: 0px;
 }
@@ -66,13 +65,12 @@ a {
     display: flex;
     background: gray;  
     padding: 50px;
-    justify-content: center;
     align-items: center;
-    min-width: 370px;
     align-self: flex-end;
-    min-height: 100px;
     position: relative;
-    top: -180px;
+    top: -200px;
+    flex-shrink: 2;
+    flex-basis: 150px;
 }
 
 button {
