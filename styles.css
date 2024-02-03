@@ -36,19 +36,24 @@ a {
 .hero {
     display: flex;
     background: #1f2937;
+    flex-shrink: 1;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.herotextbutton {
+    display: flex;
     color: #F9FAF8;
-    padding: 50px 10px;
     flex-direction: column;
     padding-left: 230px;
     padding-right: 230px;
     padding-top: 100px;
-    padding-bottom: 0px;
+    padding-bottom: 100px;
+    flex-shrink: 1;
+    width: 400px;
 }
 
 
-.herotext {
-    max-width: 400px;
-}
 
 .heromaintext {
     font-size: 48px;
@@ -56,21 +61,29 @@ a {
     margin-bottom: 10px;
 }
 
-.herosecondarytext {
+.herosubtext {
     color: #E5E7EB;
-    font-size: 24px;
+    font-size: 18px;
 }
+
+.photocontain {
+    flex-direction: row;
+    display: flex;
+    flex-shrink: 3;
+    width: 825px;
+    padding-right: 230px;
+    justify-content: flex-end;
+}
+
 
 .photo {
     display: flex;
     background: gray;  
     padding: 50px;
-    align-items: center;
+    min-width: 370px;
+    min-height: 150px;
+    flex-shrink: 1;
     align-self: flex-end;
-    position: relative;
-    top: -200px;
-    flex-shrink: 2;
-    flex-basis: 150px;
 }
 
 button {
@@ -83,3 +96,4 @@ button {
     border-radius: 7px;
     margin-top: 15px;
 }
+    
