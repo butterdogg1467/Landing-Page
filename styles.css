@@ -46,11 +46,11 @@ a {
     color: #F9FAF8;
     flex-direction: column;
     padding-left: 230px;
-    padding-right: 230px;
+    padding-right: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
     flex-shrink: 1;
-    width: 400px;
+    flex-basis: 5000px;
 }
 
 
@@ -69,7 +69,7 @@ a {
 .photocontain {
     flex-direction: row;
     display: flex;
-    flex-shrink: 3;
+    flex-shrink: 1;
     width: 825px;
     padding-right: 230px;
     justify-content: flex-end;
@@ -79,12 +79,12 @@ a {
 .photo {
     display: flex;
     background: gray;  
-    padding: 50px;
-    min-width: 370px;
-    min-height: 150px;
+    min-width: 470px;
+    min-height: 230px;
     flex-shrink: 1;
     align-self: flex-end;
 }
+
 
 button {
     align-self: flex-start;
