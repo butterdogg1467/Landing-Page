@@ -16,7 +16,6 @@ body {
     padding-right: 230px;
     padding-top: 10px;
     max-height: 40px;
-    flex-shrink: 1;
 }
 
 
@@ -40,7 +39,7 @@ a {
     background: #1f2937;
     flex-shrink: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding-left: 230px;
 }
 
@@ -132,9 +131,26 @@ button {
     display: flex;
     border-radius: 15px;
     border: #3882F6 solid;
+    border-width: 5px;
     flex-shrink: 1;
     flex-basis: 100%;
     margin: 20px; 
+}
+
+.subtextcontainer {
+    display: flex;
+    max-width: 900px;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.boxsubtext {
+    display: flex;
+    max-width: 150px;
+    text-align: center;
+
+    
+
 }
 
 
