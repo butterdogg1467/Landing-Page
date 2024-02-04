@@ -40,17 +40,17 @@ a {
     background: #1f2937;
     flex-shrink: 1;
     align-items: center;
-    flex-grow: 1;
+    justify-content: center;
+    padding-left: 230px;
 }
 
 .herotextbutton {
     display: flex;
     color: #F9FAF8;
     flex-direction: column;
-    padding-left: 230px;
-    padding-right: 75px;
     padding-top: 100px;
     padding-bottom: 100px;
+    max-width: 450px;
     flex-shrink: 1;
 }
 
@@ -75,6 +75,7 @@ a {
     padding-bottom: 100px;
     width: 470px;
     height: 230px;
+    padding-left: 30px;
 }
 
 
@@ -99,3 +100,41 @@ button {
     margin-top: 15px;
 }
     
+.informationsec {
+    display: flex;
+    justify-content: start;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.informationtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+}
+
+.boxcontainer {
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    border-radius: 15px;
+    border: #3882F6 solid;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    margin: 20px; 
+}
+
+
