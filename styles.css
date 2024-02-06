@@ -106,25 +106,23 @@ button {
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
 .informationtitle {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-
 }
 
 .boxcontainer {
     display: flex;
-    width: 1000px;
-    height: 250px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-direction: row;
-    padding-top: 30px;
+    max-width: 1000px;
+    min-height: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 
 .box {
@@ -132,25 +130,50 @@ button {
     border-radius: 15px;
     border: #3882F6 solid;
     border-width: 5px;
-    flex-shrink: 1;
-    flex-basis: 100%;
+    flex-shrink: 0;
+    min-width: 200px;
+    min-height: 200px;
     margin: 20px; 
 }
 
+.boxandsubtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
 .subtextcontainer {
     display: flex;
-    max-width: 900px;
-    justify-content: space-evenly;
-    background-color: red;
+    flex-wrap: wrap;
+   
 }
 
 .boxsubtext {
     display: flex;
     max-width: 150px;
     text-align: center;
-
-    
-
+    margin: 0px 50px;
+    flex-shrink: 0;
+}
+ 
+.quotesec {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px 500px;
+    color: #1F2937
 }
 
+.quote {
+    font-style: italic;
+    
+    font-size: 37px;
+}
 
+.quoteauthor {
+    align-self: end;
+    font-weight: bolder;
+    font-size: 20px;
+}
