@@ -156,19 +156,18 @@ button {
     flex-shrink: 0;
 }
 
-.boxwrapper {
-    background-color: red;
-}
- 
 .quotesec {
     background-color: #e5e7eb;
     display: flex;
-    flex-shrink: 1;
-    padding:100px 500px;
+    padding:100px;
+    justify-content: center;
     color: #1F2937;
     margin-top: 200px;
 }
 
+.quotebox {
+    flex-shrink: 1;
+}
 .quote {
     font-style: italic;
     font-size: 37px;
@@ -183,4 +182,6 @@ button {
 .fullquotetext {
     display: flex;
     flex-direction: column;
+    max-width: 475px;
+    max-height: 333px;
 }
